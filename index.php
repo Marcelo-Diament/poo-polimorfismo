@@ -39,8 +39,8 @@
 	<meta name="og:region" content="SP">
 	<meta name="og:country-name" content="BR">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="https://djament.com.br/img/logo-fardas-guara.png">
-	<meta property="og:image:alt" content="Djament | Desenvolvimento de Sites">
+	<meta property="og:image" content="https://djament.com.br/estudos/poo-polimorfismo/assets/img/tartarugas.png">
+	<meta property="og:image:alt" content="POO | Polimorfismo">
 	<meta property="og:image:url" content="https://br.digitalhouse.com/wp-content/themes/dh/assets/img/icons/apple-icon-60x60.png">
 	<meta property="og:image:type" content="img/png">
 	<meta name="mobile-web-app-capable" content="yes">
@@ -63,8 +63,7 @@
 				</div>
 			</article>
 			<article class="col-12">
-				<h1>Polimorfismo e Sobrecarga de Métodos</h1>
-				<!-- <a href="https://github.com/Marcelo-Diament/poo-revisao" target="_blank" title="Acesse o repositório para ver os códigos em PHP" rel="noreferrer"><i class="fab fa-github"></i></a></h1> -->
+				<h1>Polimorfismo e Sobrecarga de Métodos <a href="https://github.com/Marcelo-Diament/poo-polimorfismo" target="_blank" title="Acesse o repositório para ver os códigos em PHP" rel="noreferrer"><i class="fab fa-github"></i></a></h1>
 			</article>
 		</section>
 	</header>
@@ -81,7 +80,7 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Mamífero é extensão da classe Abstrata Animal</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos da Aplicados ao Objeto</p>
+						<p>Métodos Aplicados ao Objeto</p>
 					</div>
 					<ul class="list-group list-group-flush">
 						<?php
@@ -108,16 +107,16 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Cachorro é extensão da classe Mamífero</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos da Aplicados ao Objeto</p>
+						<p>Métodos Aplicados ao Objeto</p>
 					</div>
 					<ul class="list-group list-group-flush">
 						<?php
 						// Instanciando um objeto a partir da classe Cachorro.
 						$cachorro = new Cachorro();
 						$cachorro->locomover();
-						$mamifero->alimentar();
-						$mamifero->emitirSom();
-						$mamifero->setCorDePelos("branco");
+						$cachorro->alimentar();
+						$cachorro->emitirSom();
+						$cachorro->setCorDePelos("branco");
 						echo "<li class='list-group-item'>Cor de pelo: ".$cachorro->getCorDePelos()."</li>";
 						$cachorro->roerOsso();
 						?>
@@ -135,7 +134,7 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Ave é extensão da classe Abstrata Animal</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos da Aplicados ao Objeto</p>
+						<p>Métodos Aplicados ao Objeto</p>
 					</div>
 					<ul class="list-group list-group-flush">
 						<?php
@@ -162,7 +161,7 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Arara é extensão da classe Ave</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos da Aplicados ao Objeto</p>
+						<p>Métodos Aplicados ao Objeto</p>
 					</div>
 					<ul class="list-group list-group-flush">
 						<?php
@@ -190,7 +189,7 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Peixe é extensão da classe Abstrata Animal</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos da Aplicados ao Objeto</p>
+						<p>Métodos Aplicados ao Objeto</p>
 					</div>
 					<ul class="list-group list-group-flush">
 						<?php
@@ -217,7 +216,7 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Tilápia é extensão da classe Peixe</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos da Aplicados ao Objeto</p>
+						<p>Métodos Aplicados ao Objeto</p>
 					</div>
 					<ul class="list-group list-group-flush">
 						<?php
@@ -245,7 +244,7 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Réptil é extensão da classe Abstrata Animal</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos da Aplicados ao Objeto</p>
+						<p>Métodos Aplicados ao Objeto</p>
 					</div>
 					<ul class="list-group list-group-flush">
 						<?php
@@ -272,7 +271,7 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Tartaruga é extensão da classe Réptil</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos da Aplicados ao Objeto</p>
+						<p>Métodos Aplicados ao Objeto</p>
 					</div>
 					<ul class="list-group list-group-flush">
 						<?php
@@ -282,7 +281,7 @@
 						$tartaruga->alimentar();
 						$tartaruga->emitirSom();
 						$tartaruga->lutar();
-						$tartaruga->setCorDeCasco("vermelhas");
+						$tartaruga->setCorDeCasco("verde");
 						echo "<li class='list-group-item'>Cor de casco: ".$tartaruga->getCorDeCasco()."</li>";
 						?>
 					</ul>

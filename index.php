@@ -80,9 +80,9 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Mamífero é extensão da classe Abstrata Animal</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos Aplicados ao Objeto</p>
+						<p data-toggle="collapse" href="#metodosMamifero" role="button" aria-expanded="false" aria-controls="metodosMamifero" onclick="colapsar(this)">Métodos Aplicados ao Objeto <span class="setaCollapse">+</span></p>
 					</div>
-					<ul class="list-group list-group-flush">
+					<ul class="list-group list-group-flush collapse" id="metodosMamifero">
 						<?php
 						// Instanciando um objeto a partir da classe Mamífero.
 						$mamifero = new Mamifero();
@@ -107,9 +107,9 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Cachorro é extensão da classe Mamífero</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos Aplicados ao Objeto</p>
+						<p data-toggle="collapse" href="#metodosCachorro" role="button" aria-expanded="false" aria-controls="metodosCachorro" onclick="colapsar(this)">Métodos Aplicados ao Objeto <span class="setaCollapse">+</span></p>
 					</div>
-					<ul class="list-group list-group-flush">
+					<ul class="list-group list-group-flush collapse" id="metodosCachorro">
 						<?php
 						// Instanciando um objeto a partir da classe Cachorro.
 						$cachorro = new Cachorro();
@@ -134,9 +134,9 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Ave é extensão da classe Abstrata Animal</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos Aplicados ao Objeto</p>
+						<p data-toggle="collapse" href="#metodosAve" role="button" aria-expanded="false" aria-controls="metodosAve" onclick="colapsar(this)">Métodos Aplicados ao Objeto <span class="setaCollapse">+</span></p>
 					</div>
-					<ul class="list-group list-group-flush">
+					<ul class="list-group list-group-flush collapse" id="metodosAve">
 						<?php
 						// Instanciando um objeto a partir da classe Ave
 						$ave = new Ave();
@@ -161,9 +161,9 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Arara é extensão da classe Ave</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos Aplicados ao Objeto</p>
+						<p data-toggle="collapse" href="#metodosArara" role="button" aria-expanded="false" aria-controls="metodosArara" onclick="colapsar(this)">Métodos Aplicados ao Objeto <span class="setaCollapse">+</span></p>
 					</div>
-					<ul class="list-group list-group-flush">
+					<ul class="list-group list-group-flush collapse" id="metodosArara">
 						<?php
 						// Instanciando um objeto a partir da classe Arara
 						$arara = new Arara();
@@ -189,9 +189,9 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Peixe é extensão da classe Abstrata Animal</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos Aplicados ao Objeto</p>
+						<p data-toggle="collapse" href="#metodosPeixe" role="button" aria-expanded="false" aria-controls="metodosPeixe" onclick="colapsar(this)">Métodos Aplicados ao Objeto <span class="setaCollapse">+</span></p>
 					</div>
-					<ul class="list-group list-group-flush">
+					<ul class="list-group list-group-flush collapse" id="metodosPeixe">
 						<?php
 						// Instanciando um objeto a partir da classe Peixe
 						$peixe = new Peixe();
@@ -216,9 +216,9 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Tilápia é extensão da classe Peixe</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos Aplicados ao Objeto</p>
+						<p data-toggle="collapse" href="#metodosTilapia" role="button" aria-expanded="false" aria-controls="metodosTilapia" onclick="colapsar(this)">Métodos Aplicados ao Objeto <span class="setaCollapse">+</span></p>
 					</div>
-					<ul class="list-group list-group-flush">
+					<ul class="list-group list-group-flush collapse" id="metodosTilapia">
 						<?php
 						// Instanciando um objeto a partir da classe Arara
 						$tilapia = new Tilapia();
@@ -244,9 +244,9 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Réptil é extensão da classe Abstrata Animal</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos Aplicados ao Objeto</p>
+						<p data-toggle="collapse" href="#metodosReptil" role="button" aria-expanded="false" aria-controls="metodosReptil" onclick="colapsar(this)">Métodos Aplicados ao Objeto <span class="setaCollapse">+</span></p>
 					</div>
-					<ul class="list-group list-group-flush">
+					<ul class="list-group list-group-flush collapse" id="metodosReptil">
 						<?php
 						// Instanciando um objeto a partir da classe Réptil
 						$reptil = new Reptil();
@@ -254,7 +254,7 @@
 						$reptil->alimentar();
 						$reptil->emitirSom();
 						$reptil->setCorDeCasco("verde");
-						echo "<li class='list-group-item'>Cor de casco: ".$reptil->getCorDeCasco()."</li>";
+						echo "<li class='list-group-item'>Cor de escama: ".$reptil->getCorDeCasco()."</li>";
 						?>
 					</ul>
 				</div>
@@ -271,9 +271,9 @@
 						<h6 class="card-subtitle mb-2 text-muted">A classe Tartaruga é extensão da classe Réptil</h6>
 					</div>
 					<div class="card-header">
-						<p>Métodos Aplicados ao Objeto</p>
+						<p data-toggle="collapse" href="#metodosTartaruga" role="button" aria-expanded="false" aria-controls="metodosTartaruga" onclick="colapsar(this)">Métodos Aplicados ao Objeto <span class="setaCollapse">+</span></p>
 					</div>
-					<ul class="list-group list-group-flush">
+					<ul class="list-group list-group-flush collapse" id="metodosTartaruga">
 						<?php
 						// Instanciando um objeto a partir da classe Réptil
 						$tartaruga = new Tartaruga();
@@ -297,7 +297,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript">
-		$('article').after('<hr/>')
+		window.onload = function(){
+			colapsar = function(el){
+				(el.firstElementChild.innerHTML == '+') ? el.firstElementChild.innerHTML = '-' : el.firstElementChild.innerHTML = '+'
+			}
+			$('article').after('<hr/>')
+		}
 	</script>
 
 </body>
